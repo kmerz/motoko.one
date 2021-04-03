@@ -15,6 +15,7 @@ const Wrapper = styled.div`
   height: max-content;
   cursor: pointer;
   padding: 5px;
+  margin: 2px;
 `;
 
 const Target = styled.div`

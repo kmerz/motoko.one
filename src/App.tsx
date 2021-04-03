@@ -4,6 +4,9 @@ import styled from 'styled-components';
 
 import Welcome from './Pages/Welcome';
 import Introduction from './Pages/Introduction';
+import SatoruIntroduction from './Pages/SatoruIntroduction';
+import AreYouAStudent from './Pages/AreYouAStudent';
+import IAmYourTeacher from './Pages/IAmYouTeacher';
 
 const Wrapper = styled.div`
   display: flex;
@@ -20,6 +23,9 @@ const ButtonBar = styled.div`
 const pages = [
   Welcome,
   Introduction,
+  SatoruIntroduction,
+  AreYouAStudent,
+  IAmYourTeacher,
 ];
 
 function App() {
