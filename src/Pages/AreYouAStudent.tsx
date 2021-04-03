@@ -17,10 +17,10 @@ const AreYouAStudent = () => {
     return (
         <ChapterWrapper>
             <Canvas>
-                <Speech target="がくせいですか。" source="Are you a student?" />
+                <Speech target="学生ですか。" kana="がくせいですか。" source="Are you a student?" />
                 <img title="Motoko" src={motokoAsking} alt="Motoko" />
                 <img title="Satoru" src={satoruAnswer} alt="Satoru" />
-                <Speech target="はい、がくせいです。" source="Yes, I am a student." />
+                <Speech target="はい、学生です。" kana="はい、がくせいです。" source="Yes, I am a student." />
             </Canvas>
         </ChapterWrapper>
     );

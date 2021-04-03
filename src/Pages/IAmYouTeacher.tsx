@@ -19,12 +19,12 @@ const AreYouAStudent = () => {
         <ChapterWrapper>
             <Canvas>
                 <SpeechGroup>
-                  <Speech target="私はあなたの先生です。" source="I am your teacher." />
-                  <Speech target="座って！" source="Sit down!" />
+                  <Speech target="私はあなたの先生です。" kana="わたしはあなたのせんせいです。" source="I am your teacher." />
+                  <Speech target="座って！" source="Sit down!" kana="すわって!" />
                 </SpeechGroup>
                 <img title="Motoko" src={motokoIsTeacher} alt="Motoko" />
                 <img title="Satoru" src={satoruSorry} alt="Satoru" />
-                <Speech target="すみません、もとこ先生。" source="Excuse me, Motoko-Sensei" />
+                <Speech target="すみません、素子先生。" kana="もとこせんせい" source="Excuse me, Motoko-Sensei" />
             </Canvas>
         </ChapterWrapper>
     );

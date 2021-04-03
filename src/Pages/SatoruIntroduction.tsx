@@ -20,7 +20,7 @@ const SatoruIntroduction = () => {
                 <img title="Motoko" src={satoruIntroduction} alt="Motoko" />
                 <SpeechGroup>
                   <Speech target="こんにちは" source="Hello" />
-                  <Speech target="そして、私はサトルです。" source="And I am Satoru." />
+                  <Speech target="そして、私はサトルです。" kana="そして、わたしはサトルです。" source="And I am Satoru." />
                 </SpeechGroup>
             </Canvas>
         </ChapterWrapper>

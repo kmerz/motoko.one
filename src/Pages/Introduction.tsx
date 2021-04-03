@@ -17,7 +17,7 @@ const Introduction = () => {
         <ChapterWrapper>
             <Canvas>
                 <img title="Motoko" src={introduction} alt="Motoko" />
-                <Speech target="私はもとこです。" source="I am Motoko." />
+                <Speech target="私は素子です。" kana="わたしはもとこです。" source="I am Motoko." />
             </Canvas>
         </ChapterWrapper>
     );

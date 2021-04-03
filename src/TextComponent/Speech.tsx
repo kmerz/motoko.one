@@ -4,11 +4,6 @@ import { useState } from 'react';
 
 import ColorPalette from '../ColorPalatte';
 
-type Props = {
-    target: string,
-    source: string,
-};
-
 const Wrapper = styled.div`
   border: 1px solid ${ColorPalette.font};
   border-radius: 3px;
@@ -22,18 +17,33 @@ const Target = styled.div`
   color: ${ColorPalette.font};
 `;
 
+const Kana = styled.div`
+  margin-top: 3px;
+  color: ${ColorPalette.info};
+`;
+
 const Source = styled.div`
   margin-top: 3px;
   color: ${ColorPalette.secondary};
 `;
 
-const Speech = ({ target, source }: Props) => {
+type Props = {
+    target: string,
+    source: string,
+    kana?: string,
+};
+
+
+const Speech = ({ target, source, kana }: Props) => {
    const [showSource, setShowSource] = useState(false); 
 
     return (
         <Wrapper role="button" onClick={() => setShowSource(!showSource)}>
             <Target>{target}</Target>
-            { showSource && <Source>{source}</Source>}
+            { showSource &&
+                <>{kana && (<Kana>{kana}</Kana>)}
+                    <Source>{source}</Source></>
+            }
         </Wrapper>
    );
 };
