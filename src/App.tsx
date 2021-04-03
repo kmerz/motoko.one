@@ -8,6 +8,7 @@ import Introduction from './Pages/Introduction';
 import SatoruIntroduction from './Pages/SatoruIntroduction';
 import AreYouAStudent from './Pages/AreYouAStudent';
 import IAmYourTeacher from './Pages/IAmYouTeacher';
+import FirstLesson from './Pages/FirstLesson';
 
 const Wrapper = styled.div`
   display: flex;
@@ -48,6 +49,7 @@ const pages = [
   SatoruIntroduction,
   AreYouAStudent,
   IAmYourTeacher,
+  FirstLesson,
 ];
 
 function App() {
