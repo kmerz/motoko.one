@@ -2,8 +2,8 @@ import React from 'react';
 import { useState } from 'react';
 import styled from 'styled-components';
 
-import Welcome from './Chapters/Welcome';
-import Introduction from './Chapters/Introduction';
+import Welcome from './Pages/Welcome';
+import Introduction from './Pages/Introduction';
 
 const Wrapper = styled.div`
   display: flex;
