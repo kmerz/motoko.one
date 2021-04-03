@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import styled from 'styled-components';
 
+import ColorPalette from './ColorPalatte';
 import Welcome from './Pages/Welcome';
 import Introduction from './Pages/Introduction';
 import SatoruIntroduction from './Pages/SatoruIntroduction';
@@ -18,6 +19,27 @@ const Wrapper = styled.div`
 const ButtonBar = styled.div`
   display: flex;
   flex-direction: row;
+`;
+
+const Button = styled.button`
+  background-color: ${ColorPalette.info};
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 1px solid white;
+  cursor: pointer;
+
+  :hover {
+    background-color: ${ColorPalette.primary};
+  }
+
+  :disabled {
+    background-color: ${ColorPalette.Background};
+  }
 `;
 
 const pages = [
@@ -39,8 +61,10 @@ function App() {
     <Wrapper>
       <Chapter />
       <ButtonBar>
-        <button disabled={isFirst} onClick={() => setCurrentPage(currentPage - 1)} title="Previous Page">前のページ</button>
-        <button disabled={isLast} onClick={() => setCurrentPage(currentPage + 1)} title="Next Page">次のページ</button>
+        <Button disabled={isFirst} onClick={() => setCurrentPage(0)} title="First Page">先頭ページ</Button>
+        <Button disabled={isFirst} onClick={() => setCurrentPage(currentPage - 1)} title="Previous Page">前のページ</Button>
+        <Button disabled={isLast} onClick={() => setCurrentPage(currentPage + 1)} title="Next Page">次のページ</Button>
+        <Button disabled={isLast} onClick={() => setCurrentPage(pages.length - 1)} title="Last Page">最後のページ</Button>
       </ButtonBar>
     </Wrapper>
   );
