@@ -14,6 +14,7 @@ const Wrapper = styled.div`
   border-radius: 3px;
   height: max-content;
   cursor: pointer;
+  padding: 5px;
 `;
 
 const Target = styled.div`
@@ -21,6 +22,7 @@ const Target = styled.div`
 `;
 
 const Source = styled.div`
+  margin-top: 3px;
   color: ${ColorPalette.secondary};
 `;
 
@@ -28,8 +30,8 @@ const Speech = ({ target, source }: Props) => {
    const [showSource, setShowSource] = useState(false); 
 
     return (
-        <Wrapper>
-            <Target role="button" onClick={() => setShowSource(!showSource)}>{target}</Target>
+        <Wrapper role="button" onClick={() => setShowSource(!showSource)}>
+            <Target>{target}</Target>
             { showSource && <Source>{source}</Source>}
         </Wrapper>
    );
