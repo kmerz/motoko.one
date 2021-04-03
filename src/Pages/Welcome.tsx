@@ -1,16 +1,10 @@
 import * as React from 'react';
-import styled from 'styled-components';
 
 import ChapterWrapper from './ChapterWrapper';
+import Canvas from './Canvas';
 import welcome from './motoko/welcome.svg';
 
 import Speech from '../TextComponent/Speech';
-
-
-const Canvas = styled.div`
-  display: flex;
-  flex-direction: row;
-`;
 
 const Welcome = () => {
     return (

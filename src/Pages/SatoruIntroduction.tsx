@@ -1,17 +1,11 @@
 import * as React from 'react';
-import styled from 'styled-components';
 
+import Canvas from './Canvas';
 import ChapterWrapper from './ChapterWrapper';
 import satoruIntroduction from './motoko/satoru-introduction.svg';
 
 import Speech from '../TextComponent/Speech';
 import SpeechGroup from '../TextComponent/SpeechGroup';
-
-
-const Canvas = styled.div`
-  display: flex;
-  flex-direction: row;
-`;
 
 const SatoruIntroduction = () => {
     return (

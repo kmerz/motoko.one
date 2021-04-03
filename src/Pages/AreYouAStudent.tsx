@@ -1,17 +1,11 @@
 import * as React from 'react';
-import styled from 'styled-components';
 
 import ChapterWrapper from './ChapterWrapper';
+import Canvas from './Canvas';
 import motokoAsking from './motoko/motoko-is-asking-satoru.svg';
 import satoruAnswer from './motoko/satoru-is-a-japanese-student.svg';
 
 import Speech from '../TextComponent/Speech';
-
-
-const Canvas = styled.div`
-  display: flex;
-  flex-direction: row;
-`;
 
 const AreYouAStudent = () => {
     return (

@@ -1,18 +1,12 @@
 import * as React from 'react';
-import styled from 'styled-components';
 
 import ChapterWrapper from './ChapterWrapper';
+import Canvas from './Canvas';
 import motokoIsTeacher from './motoko/motoko-is-the-teacher.svg';
 import satoruSorry from './motoko/satoru-is-sorry.svg';
 
 import Speech from '../TextComponent/Speech';
 import SpeechGroup from '../TextComponent/SpeechGroup';
-
-
-const Canvas = styled.div`
-  display: flex;
-  flex-direction: row;
-`;
 
 const AreYouAStudent = () => {
     return (
