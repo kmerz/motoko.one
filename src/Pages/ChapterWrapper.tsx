@@ -11,6 +11,7 @@ const Wrapper = styled.article`
   border: 2px solid ${ColorPalatte.font};
   border-radius: 5px;
   padding: 10px;
+  height: 274px;
 `;
 
 type Props = {
