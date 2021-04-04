@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import ColorPalatte from '../ColorPalatte';
 
-const Wrapper = styled.div`
+const Wrapper = styled.article`
   display: flex;
   justify-content: center;
   align-items: center;

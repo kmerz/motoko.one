@@ -6,7 +6,6 @@ import motokoIsTeacher from './motoko/teaching.svg';
 import satoruResponding from './motoko/satoru-bench.svg';
 
 import Speech from '../TextComponent/Speech';
-import SpeechGroup from '../TextComponent/SpeechGroup';
 
 
 const AreYouAStudent = () => {
