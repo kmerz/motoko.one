@@ -47,7 +47,7 @@ const Navigation = ({ pageCount }: Props) => {
     const location = useLocation();
     const firstPage = 1;
     const lastPage = pageCount;
-    const currentPage = pathToPage(location.pathname);
+    const currentPage = pathToPage(location.pathname) || 1;
     const prevPage = currentPage > firstPage ? currentPage - 1: firstPage;
     const nextPage = currentPage < lastPage ? currentPage + 1: lastPage;
 

@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 
 import Navigation from './Navigation';
+import ColorPalatte from './ColorPalatte';
 
 import Welcome from './Pages/Welcome';
 import Introduction from './Pages/Introduction';
@@ -22,6 +23,10 @@ const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+`;
+
+const Info = styled.div`
+  color: ${ColorPalatte.info};
 `;
 
 const pages = [
@@ -49,6 +54,7 @@ function App() {
             <Welcome />
           </Route>
         </Switch>
+        <Info>Click on the speech bubble for translation and kana.</Info>
         <Navigation pageCount={pages.length} />
       </Wrapper>
     </Router>
