@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="250"
+   viewBox="0 0 26.458333 66.145833"
+   version="1.1"
+   id="svg4961"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="saturo-on-the-knee.svg">
+  <defs
+     id="defs4955">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect8782"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5655"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3815"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3819"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3823"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3827"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3831"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3835"
+       is_visible="true" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="15.618294"
+     inkscape:cy="118.79439"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:snap-others="false"
+     inkscape:snap-nodes="false"
+     inkscape:window-width="1853"
+     inkscape:window-height="1025"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4958">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-230.85417)">
+    <ellipse
+       strokeWidth="2"
+       cx="113.40747"
+       cy="234.69203"
+       id="head"
+       rx="7.2760415"
+       ry="8.4666662"
+       transform="matrix(-0.88314925,0.46909211,0.46909211,0.88314925,0,0)"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.53341484;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none" />
+    <line
+       strokeWidth="2"
+       x1="14.67084"
+       y1="267.77927"
+       x2="6.1915836"
+       y2="277.57745"
+       id="left-arm"
+       style="stroke:#000000;stroke-width:0.53341484;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none" />
+    <line
+       strokeWidth="2"
+       x1="14.616899"
+       y1="267.8735"
+       x2="16.39995"
+       y2="280.70786"
+       id="right-arm"
+       style="stroke:#000000;stroke-width:0.53341484;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none" />
+    <line
+       strokeWidth="2"
+       x1="2.6532388"
+       y1="273.3504"
+       x2="6.2663388"
+       y2="277.42798"
+       id="left-forearm"
+       style="stroke:#000000;stroke-width:0.53341484;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none" />
+    <line
+       strokeWidth="2"
+       x1="16.387827"
+       y1="280.60754"
+       x2="15.502546"
+       y2="285.98322"
+       id="svg_11"
+       style="stroke:#000000;stroke-width:0.53341484;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.39687499;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5632"
+       width="3.7797618"
+       height="2.4568453"
+       x="-123.32872"
+       y="230.73557"
+       transform="rotate(-29.135397)" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.39687499;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5632-7"
+       width="3.7797618"
+       height="2.4568453"
+       x="-117.43298"
+       y="230.70724"
+       transform="rotate(-29.135396)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 8.4523556,260.74588 c 0.042632,-0.40707 0.2918735,-0.7871 0.6482426,-0.9884 0.3563691,-0.20131 0.8105116,-0.21861 1.1811598,-0.045 0.03384,0.0159 0.06699,0.0332 0.09932,0.0519"
+       id="path5653"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect5655"
+       inkscape:original-d="m 8.4523556,260.74588 c 0.609874,-0.3448 1.219643,-0.68933 1.8294024,-1.03339 0.609711,-0.34415 0.06629,0.0343 0.09932,0.0519" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 7.8052085,294.65656 2.8348215,-9.16593 h 7.843007 l -1.511904,8.97694 h 8.598958"
+       id="path8778"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 18.577531,285.49063 c 0.349699,-5.79302 -0.90595,-11.67474 -3.590773,-16.81994 -0.18259,-0.34992 -0.371621,-0.69647 -0.566964,-1.03943"
+       id="path8780"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect8782"
+       inkscape:original-d="m 18.577531,285.49063 c -1.196659,-5.57541 -2.393584,-11.21355 -3.590773,-16.81994 -1.19719,-5.60638 -0.377712,-0.69322 -0.566964,-1.03943" />
+  </g>
+</svg>
