@@ -17,7 +17,7 @@ const StyledLink = styled(Link)`
   background-color: ${ColorPalette.info};
   border: none;
   color: white;
-  padding: 10px 25px;
+  padding: 5px 12px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
