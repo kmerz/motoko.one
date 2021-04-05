@@ -17,6 +17,8 @@ import IAmYourTeacher from './Pages/IAmYouTeacher';
 import FirstLesson from './Pages/FirstLesson';
 import MotokoAndJohn from './Pages/MotokoAndJohn';
 import TheSorryApple from './Pages/TheSorryApple';
+import AskingForTheToilete from './Pages/AskingForToilete';
+import JohnIsConfused from './Pages/JohnIsConfused';
 
 const Wrapper = styled.div`
   display: flex;
@@ -56,6 +58,8 @@ const pages = [
   FirstLesson,
   MotokoAndJohn,
   TheSorryApple,
+  AskingForTheToilete,
+  JohnIsConfused,
 ];
 
 function App() {
