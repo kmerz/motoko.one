@@ -19,6 +19,7 @@ import MotokoAndJohn from './Pages/MotokoAndJohn';
 import TheSorryApple from './Pages/TheSorryApple';
 import AskingForTheToilete from './Pages/AskingForToilete';
 import JohnIsConfused from './Pages/JohnIsConfused';
+import SakuraIsNotFromTokyo from './Pages/SakuraIsNotFromTokyo';
 
 const Wrapper = styled.div`
   display: flex;
@@ -60,6 +61,7 @@ const pages = [
   TheSorryApple,
   AskingForTheToilete,
   JohnIsConfused,
+  SakuraIsNotFromTokyo,
 ];
 
 function App() {
